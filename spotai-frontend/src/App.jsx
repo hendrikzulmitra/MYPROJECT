@@ -62,7 +62,7 @@ function App() {
           />
           
           <Route
-            path="/playlists/:id"
+            path="/playlists/:id"     
             element={
               <ProtectedRoute>
                 <PlaylistDetail />

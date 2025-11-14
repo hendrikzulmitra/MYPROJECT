@@ -35,7 +35,7 @@ const Navbar = () => {
               className="flex items-center gap-2 text-spotify-lightgray hover:text-white transition"
             >
               <ListMusic className="w-5 h-5" />
-              <span>My Playlists</span>
+              <span>My Playlists Songs</span>
             </Link>
           </div>
 
@@ -46,7 +46,7 @@ const Navbar = () => {
                 <img
                   src={user.picture}
                   alt={user.name}
-                  className="w-8 h-8 rounded-full"
+                  className="w-8 h-8 rounded-full"     
                 />
               ) : (
                 <div className="w-8 h-8 rounded-full bg-spotify-green flex items-center justify-center">
