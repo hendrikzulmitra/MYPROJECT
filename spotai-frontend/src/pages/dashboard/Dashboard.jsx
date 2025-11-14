@@ -32,7 +32,7 @@ const Dashboard = () => {
         <h1 className="text-4xl font-bold text-white mb-2">
           Welcome back, {user?.name}! 👋
         </h1>
-        <p className="text-spotify-lightgray">
+        <p className="text-spotify-lightgray">    
           Manage your playlists and discover new music with AI
         </p>
       </div>
