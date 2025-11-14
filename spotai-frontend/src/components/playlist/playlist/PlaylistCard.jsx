@@ -6,7 +6,7 @@ const PlaylistCard = React.memo(({ playlist }) => {
   return (
     <Link
       to={`/playlists/${playlist.id}`}
-      className="bg-spotify-darkgray hover:bg-spotify-gray rounded-lg p-4 transition group"
+      className="bg-spotify-darkgray hover:bg-spotify-gray rounded-lg p-4 transition group"    
     >
       <div className="aspect-square mb-4 rounded-lg overflow-hidden bg-spotify-gray relative">
         <img
